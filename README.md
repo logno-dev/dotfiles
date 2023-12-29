@@ -3,6 +3,7 @@ I'm no Linux mastermind, but over the past year or so I've tailored my dotfiles 
 
 ## Keyboard Shortcuts
 
+
 ### Hyprland
 
 `Mod` is mapped to the Window's key
@@ -132,12 +133,4 @@ I finally hopped on the harpoon bandwagon and I love it.
 | Ctr+a-&   | Delete current window. Confirmation required   |
 | Ctr+d   | Detatch from current session (exit)   |
 
-
-
-
-
-
-
-
-
-
+<!-- test line -->
