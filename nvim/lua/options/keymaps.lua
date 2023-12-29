@@ -126,6 +126,8 @@ vim.keymap.set('n', '<leader>ww', ':wall<cr>', { desc = 'Save All' })
 vim.keymap.set('n', '<leader>wq', ':wq<cr>', { desc = 'Save and Quit' })
 vim.keymap.set('n', '<leader>qw', ':q<cr>', { desc = 'Quit buffer' })
 vim.keymap.set('n', '<leader>qqq', ':q!<cr>', { desc = 'Quit without saving' })
+vim.keymap.set('n', '<leader>ws', ':w !git add . && git commit -m "$(date)" && git push',
+  { desc = 'Save, commit, and push file to remote repo' })
 
 -- [[ Terminal ]]
 vim.keymap.set('n', '<leader>/', ':ToggleTerm<cr>', { desc = 'Toggle Terminal' })
