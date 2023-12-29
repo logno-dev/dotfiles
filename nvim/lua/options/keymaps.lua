@@ -1,4 +1,5 @@
 -- [[ telescope keymaps ]]
+--
 
 local function find_git_root()
   -- Use the current buffer's path as the starting point for the git search
@@ -21,7 +22,7 @@ local function find_git_root()
   end
   return git_root
 end
--- test line
+
 vim.keymap.set('n', '<leader>f', function()
   -- You can pass additional configuration to telescope to change theme, layout, etc.
   require('telescope.builtin').current_buffer_fuzzy_find(require('telescope.themes').get_dropdown {
@@ -128,12 +129,12 @@ vim.keymap.set('n', '<leader>qw', ':q<cr>', { desc = 'Quit buffer' })
 vim.keymap.set('n', '<leader>qqq', ':q!<cr>', { desc = 'Quit without saving' })
 vim.keymap.set('n', '<leader>ws', function()
     local file = vim.fn.expand('%')
-    vim.cmd(':w')
-    vim.cmd(':silent !git add ' .. file .. ' && git commit -m "$(date)" && git push')
+    vim.cmd('w')
+    vim.cmd('silent !git add ' .. file .. ' && git commit -m "$(date)" && git push')
   end,
   { desc = 'Save, commit, and push file to remote repo' })
 vim.keymap.set('n', '<leader>wa', function()
-    vim.cmd(':wall')
+    vim.cmd('wall')
     vim.cmd('!git add . && git commit -m "$(date)" && git push')
   end,
   { desc = 'Save all buffers, commit all changed files, and push commit to remote repo' })
