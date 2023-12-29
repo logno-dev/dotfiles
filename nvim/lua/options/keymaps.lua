@@ -22,6 +22,7 @@ local function find_git_root()
   return git_root
 end
 
+
 vim.keymap.set('n', '<leader>f', function()
   -- You can pass additional configuration to telescope to change theme, layout, etc.
   require('telescope.builtin').current_buffer_fuzzy_find(require('telescope.themes').get_dropdown {
@@ -134,7 +135,7 @@ vim.keymap.set('n', '<leader>ws', function()
   { desc = 'Save, commit, and push file to remote repo' })
 vim.keymap.set('n', '<leader>wa', function()
     vim.cmd(':wall')
-    vim.cmd(':silent !git add . && git commit -m "$(date)" && git push')
+    vim.cmd('!git add . && git commit -m "$(date)" && git push')
   end,
   { desc = 'Save all buffers, commit all changed files, and push commit to remote repo' })
 
