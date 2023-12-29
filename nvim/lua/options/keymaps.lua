@@ -1,5 +1,4 @@
 -- [[ telescope keymaps ]]
---
 
 local function find_git_root()
   -- Use the current buffer's path as the starting point for the git search
@@ -134,10 +133,12 @@ vim.keymap.set('n', '<leader>ws', function()
   end,
   { desc = 'Save, commit, and push file to remote repo' })
 vim.keymap.set('n', '<leader>wa', function()
+    local git_root = find_git_root()
     vim.cmd('wall')
-    vim.cmd('!git add . && git commit -m "$(date)" && git push')
+    vim.cmd('!cd ' .. git_root .. '&& git add . && git commit -m "$(date)" && git push')
   end,
   { desc = 'Save all buffers, commit all changed files, and push commit to remote repo' })
+
 
 -- [[ Terminal ]]
 vim.keymap.set('n', '<leader>/', ':ToggleTerm<cr>', { desc = 'Toggle Terminal' })

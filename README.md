@@ -3,7 +3,6 @@ I'm no Linux mastermind, but over the past year or so I've tailored my dotfiles 
 
 ## Keyboard Shortcuts
 
-
 ### Hyprland
 
 `Mod` is mapped to the Window's key
