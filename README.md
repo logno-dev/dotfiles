@@ -53,7 +53,7 @@ Access neovim using nvim, vim, emacs, code and probably some other things. If yo
 |--------------- | --------------- |
 | [-b     | Navigate to previous buffer   |
 | ]-b     | Navigate to next buffer   |
-| space-b-d     | Navigate to next buffer   |
+| space-d-b     | Navigate to next buffer   |
 #### Toggle Spellcheck
 | Keymap   | Action    |
 |--------------- | --------------- |
@@ -83,7 +83,8 @@ Access neovim using nvim, vim, emacs, code and probably some other things. If yo
 | space-w   | Save file   |
 | space-w-w   | Save all open buffers   |
 | space-w-q    | Save and quit   |
-| space-w-s    | Save, commit, and push all edited files to remote repo   |
+| space-w-s    | Save, commit, and push active to remote repo   |
+| space-w-a    | Save all open buffers, commit all changed files, and push commit to remote repo   |
 | space-q-w   | Quit buffer   |
 | space-q-q-q   | Quit without saving   |
 #### Terminal
