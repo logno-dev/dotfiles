@@ -127,7 +127,7 @@ I finally hopped on the harpoon bandwagon and I love it.
 | Ctr+a-c    | Create a new window   |
 | Ctr+a-n   | Navigate to next window   |
 | Ctr+a-p    | Navigate to previous window   |
-| Ctr+a-%   | Delete current window. Confirmation required   |
+| Ctr+a-&   | Delete current window. Confirmation required   |
 | Ctr+d   | Detatch from current session (exit)   |
 
 
