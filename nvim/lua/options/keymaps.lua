@@ -85,7 +85,7 @@ vim.keymap.set('n', '-', ':Ex<cr>', { remap = true })
 -- Buffer Nav
 vim.keymap.set('n', '[b', ':bprevious<cr>', {})
 vim.keymap.set('n', ']b', ':bnext<cr>', {})
-vim.keymap.set('n', '<leader>bd', ':bdelete<cr>', { desc = 'delete current buffer' })
+vim.keymap.set('n', '<leader>db', ':bdelete<cr>', { desc = 'delete current buffer' })
 
 -- Spellcheck
 vim.keymap.set('n', '<leader>us', ':setlocal spell! spelllang=en_us<cr>', { desc = 'Toggle Spellcheck' })
@@ -127,8 +127,9 @@ vim.keymap.set('n', '<leader>wq', ':wq<cr>', { desc = 'Save and Quit' })
 vim.keymap.set('n', '<leader>qw', ':q<cr>', { desc = 'Quit buffer' })
 vim.keymap.set('n', '<leader>qqq', ':q!<cr>', { desc = 'Quit without saving' })
 vim.keymap.set('n', '<leader>ws', function()
+    local file = vim.fn.expand('%')
     vim.cmd(':w')
-    vim.cmd('!git add . && git commit -m "$(date)" && git push')
+    vim.cmd(':silent !git add ' .. file .. ' && git commit -m "$(date)" && git push')
   end,
   { desc = 'Save, commit, and push file to remote repo' })
 
