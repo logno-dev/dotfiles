@@ -132,6 +132,11 @@ vim.keymap.set('n', '<leader>ws', function()
     vim.cmd(':silent !git add ' .. file .. ' && git commit -m "$(date)" && git push')
   end,
   { desc = 'Save, commit, and push file to remote repo' })
+vim.keymap.set('n', '<leader>wa', function()
+    vim.cmd(':wall')
+    vim.cmd(':silent !git add . && git commit -m "$(date)" && git push')
+  end,
+  { desc = 'Save all buffers, commit all changed files, and push commit to remote repo' })
 
 -- [[ Terminal ]]
 vim.keymap.set('n', '<leader>/', ':ToggleTerm<cr>', { desc = 'Toggle Terminal' })
