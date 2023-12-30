@@ -25,4 +25,8 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/
 
 sudo systemctl enable bluetooth.service && sudo systemctl start bluetooth.service
 
+cd ~
+rm .zshrc
+ln -s ~/.config/.zshrc ~/.zshrc
+
 echo "Setup complete, please reboot"
