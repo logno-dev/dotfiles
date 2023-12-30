@@ -120,6 +120,12 @@ alias l="eza -la"
 alias la="eza -la"
 alias ls="eza -la"
 
+gitall() {
+  git add .
+  git commit -m "$(date)"
+  git push
+}
+
 t() {
   if [[ -z "$1" ]]; then
     tmux
