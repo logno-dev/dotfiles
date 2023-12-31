@@ -184,3 +184,9 @@ vim.keymap.set("n", "gR", function() require("trouble").toggle("lsp_references")
 
 -- [[ TODO.nvim ]]
 vim.keymap.set("n", "<leader>ll", ":TodoTelescope<cr>", { desc = 'Open TODO Telescope' })
+
+
+vim.keymap.set('i', '<M-l>', '<right>', { silent = true })
+vim.keymap.set('i', '<M-h>', '<left>', { silent = true })
+vim.keymap.set('i', '<M-k>', '<up>', { silent = true })
+vim.keymap.set('i', '<M-j>', '<down>', { silent = true })
