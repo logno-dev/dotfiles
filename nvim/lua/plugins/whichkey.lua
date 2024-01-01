@@ -35,7 +35,7 @@ return {
       require('which-key').setup({
          trigger = "<leader>",
          triggers_blacklist = {
-            n = { "v", "V" }
+            n = { "v", "V", "c" }
          }
       })
    end,
