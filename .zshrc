@@ -116,9 +116,10 @@ alias niv=florb
 alias emacs=florb
 alias helix=florb
 
-alias l="eza -la"
-alias la="eza -la"
-alias ls="eza -la"
+alias l="lsd -1"
+alias la="lsd -lA"
+alias ls="lsd"
+alias lt="lsd --tree"
 
 gitall() {
   git add .

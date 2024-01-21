@@ -1,0 +1,16 @@
+{
+	"telemetryDisabled": false,
+	"cliId": "ed0a19ec-1d51-4863-a91f-35006cc1057c",
+	"userId": "631281be00ed39164fd436fb",
+	"users": {
+		"631281be00ed39164fd436fb": {
+			"id": "631281be00ed39164fd436fb",
+			"name": null,
+			"email": "loganbunch@gmail.com",
+			"auth": {
+				"token": "nfc_tRQcPTfYSBU7DvVyJXAqh7xu3sjwsbZR135e",
+				"github": {}
+			}
+		}
+	}
+}
