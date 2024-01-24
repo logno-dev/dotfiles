@@ -143,6 +143,8 @@ ta() {
   fi
 }
 
+alias gittip="glow ~/.config/gittips.md"
+
 alias tk="tmux kill-session -t"
 
 alias tls="tmux ls"
