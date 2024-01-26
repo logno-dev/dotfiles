@@ -149,7 +149,9 @@ alias tk="tmux kill-session -t"
 
 alias tls="tmux ls"
 
-alias f="cd $(find * -type d | fzf)"
+f() {
+  cd $(find * -type d | fzf)
+}
 
 alias homevpn="sudo openvpn --config vpn/client.ovpn"
 
