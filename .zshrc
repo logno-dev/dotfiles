@@ -149,6 +149,8 @@ alias tk="tmux kill-session -t"
 
 alias tls="tmux ls"
 
+alias f="cd $(find * -type d | fzf)"
+
 alias homevpn="sudo openvpn --config vpn/client.ovpn"
 
 export PATH="$HOME/.cargo/bin:$HOME/go/bin:$PATH:/home/logno/.turso:$PATH"
