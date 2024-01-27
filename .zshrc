@@ -153,6 +153,8 @@ f() {
   cd $(find * -type d | fzf)
 }
 
+alias sd="f"
+
 alias homevpn="sudo openvpn --config vpn/client.ovpn"
 
 export PATH="$HOME/.cargo/bin:$HOME/go/bin:$PATH:/home/logno/.turso:$PATH"
