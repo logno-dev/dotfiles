@@ -150,7 +150,7 @@ alias tk="tmux kill-session -t"
 alias tls="tmux ls"
 
 f() {
-  cd $(find * -type d | fzf)
+    cd "$(find ~/. -type d | fzf)"
 }
 
 alias sd="f"
