@@ -1,0 +1,5 @@
+#! /bin/sh
+
+exec Hyprland
+
+# copy this file to /etc/lemurs/wayland and make it executable
