@@ -107,6 +107,7 @@ else
 
 florb() { nvim "${1:-.}"; }
 
+alias nvim=florb
 alias code=florb
 alias vim=florb
 alias vi=florb
@@ -127,6 +128,8 @@ gitall() {
   git push
 }
 
+alias gittip="glow ~/.config/gittips.md"
+
 t() {
   if [[ -z "$1" ]]; then
     tmux
@@ -143,8 +146,6 @@ ta() {
   fi
 }
 
-alias gittip="glow ~/.config/gittips.md"
-
 alias tk="tmux kill-session -t"
 
 alias tls="tmux ls"
@@ -156,6 +157,8 @@ f() {
 alias sd="f"
 
 alias homevpn="sudo openvpn --config vpn/client.ovpn"
+
+alias zal="cat ~/.config/my-aliases"
 
 export PATH="$HOME/.cargo/bin:$HOME/go/bin:$PATH:/home/logno/.turso:$PATH"
 export HYPRSHOT_DIR="$HOME/screenshots/"
