@@ -160,6 +160,8 @@ alias homevpn="sudo openvpn --config vpn/client.ovpn"
 
 alias zal="cat ~/.config/my-aliases"
 
+function zoom () { firejail zoom --url="zoommtg://zoom.us/join?action=join&confno=$1"; }
+
 export PATH="$HOME/.cargo/bin:$HOME/go/bin:$PATH:/home/logno/.turso:$PATH"
 export HYPRSHOT_DIR="$HOME/screenshots/"
 
