@@ -36,7 +36,6 @@ return {
         "astro"
       },
       auto_install = true,
-      ignore_install = { "markdown" },
       highlight = { enable = true },
     })
   end,

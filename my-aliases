@@ -1,0 +1,41 @@
+---- My Aliases ----
+
+# Launch NeoVim #
+  If no document/path is listed, NeoVim is launched directly to netrw in the active directory. All of the following will launch NeoVim:
+
+  nvim
+  code
+  vim
+  vi
+  vnim
+  nivm
+  niv
+  emacs
+  helix
+
+# LSD - List files and directories #
+
+  l -> simple list no hidden files
+  la -> list with all details, includes hidden files
+  ls -> list not stacked, no hidden files
+  lt -> fancy list with file tree formatting
+
+# Git #
+
+  gitall -> git add all commit and push
+  gittip -> shows tips for git
+
+# TMUX #
+
+  t -> create a new session, named session can be passed in
+  ta -> attach to named session, attaches to the most recent session if no argument is passed
+  tk -> kill session
+  tls -> list tmux sessions
+
+# FZF #
+
+  sd, f -> activates fzf and then feeds the output to cd
+
+# VPN #
+
+  homevpn -> connects to home network VPN

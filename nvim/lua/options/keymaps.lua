@@ -90,7 +90,7 @@ vim.keymap.set("n", "<leader>db", ":bdelete<cr>", { desc = "delete current buffe
 vim.keymap.set("n", "<leader>us", ":setlocal spell! spelllang=en_us<cr>", { desc = "Toggle Spellcheck" })
 
 -- Copilot
-vim.keymap.set("i", "<M-Tab>", 'copilot#Accept("<CR>")', { silent = true, expr = true, replace_keycodes = false })
+vim.keymap.set("i", "<C-c>", 'copilot#Accept("<CR>")', { silent = true, expr = true, replace_keycodes = false })
 vim.g.copilot_no_tab_map = true
 
 -- [[ Highlight on yank ]]

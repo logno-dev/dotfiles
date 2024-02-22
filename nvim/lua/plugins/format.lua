@@ -9,13 +9,15 @@ return {
     },
   },
 
-  {
-    'windwp/nvim-autopairs',
-    event = "InsertEnter",
-    opts = {
-      check_ts = true,
-    },
-  },
+  -- {
+  --   'windwp/nvim-autopairs',
+  --   event = "InsertEnter",
+  --   opts = {
+  --     disable_filetype = { "markdown", "mdx", "md" },
+  --     check_ts = true,
+  --     disable_in_visualblock = true,
+  --   },
+  -- },
 
   {
     'windwp/nvim-ts-autotag',

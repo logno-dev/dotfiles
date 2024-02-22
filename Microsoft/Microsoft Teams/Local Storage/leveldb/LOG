@@ -1,0 +1,37 @@
+2024/02/15-07:21:04.126 3e4d Reusing MANIFEST /home/logno/.config/Microsoft/Microsoft Teams/Local Storage/leveldb/MANIFEST-000001
+2024/02/15-07:21:35.154 3f8c Level-0 table #5: started
+2024/02/15-07:21:35.178 3f8c Level-0 table #5: 515486 bytes OK
+2024/02/15-07:21:35.184 3f8c Delete type=0 #3
+2024/02/15-07:23:15.161 3f8c Level-0 table #7: started
+2024/02/15-07:23:15.180 3f8c Level-0 table #7: 331598 bytes OK
+2024/02/15-07:23:15.187 3f8c Delete type=0 #4
+2024/02/15-20:02:30.252 3f8c Level-0 table #9: started
+2024/02/15-20:02:30.262 3f8c Level-0 table #9: 37320 bytes OK
+2024/02/15-20:02:30.268 3f8c Delete type=0 #6
+2024/02/15-21:00:30.259 3f8c Level-0 table #11: started
+2024/02/15-21:00:30.271 3f8c Level-0 table #11: 126959 bytes OK
+2024/02/15-21:00:30.277 3f8c Delete type=0 #8
+2024/02/16-15:03:26.000 3f8c Level-0 table #13: started
+2024/02/16-15:03:26.012 3f8c Level-0 table #13: 137002 bytes OK
+2024/02/16-15:03:26.018 3f8c Delete type=0 #10
+2024/02/17-12:35:27.589 3f8c Level-0 table #15: started
+2024/02/17-12:35:27.600 3f8c Level-0 table #15: 41637 bytes OK
+2024/02/17-12:35:27.607 3f8c Delete type=0 #12
+2024/02/17-12:35:27.607 3f8c Compacting 4@0 + 1@1 files
+2024/02/17-12:35:27.621 3f8c Generated table #16@0: 113 keys, 333688 bytes
+2024/02/17-12:35:27.621 3f8c Compacted 4@0 + 1@1 files => 333688 bytes
+2024/02/17-12:35:27.627 3f8c compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/02/17-12:35:27.628 3f8c Delete type=2 #7
+2024/02/17-12:35:27.628 3f8c Delete type=2 #9
+2024/02/17-12:35:27.628 3f8c Delete type=2 #11
+2024/02/17-12:35:27.628 3f8c Delete type=2 #13
+2024/02/17-12:35:27.628 3f8c Delete type=2 #15
+2024/02/17-19:44:45.413 3f8c Level-0 table #18: started
+2024/02/17-19:44:45.424 3f8c Level-0 table #18: 40085 bytes OK
+2024/02/17-19:44:45.430 3f8c Delete type=0 #14
+2024/02/17-21:36:43.458 3f8c Level-0 table #20: started
+2024/02/17-21:36:43.469 3f8c Level-0 table #20: 130854 bytes OK
+2024/02/17-21:36:43.475 3f8c Delete type=0 #17
+2024/02/18-19:44:25.960 3f8c Level-0 table #22: started
+2024/02/18-19:44:25.971 3f8c Level-0 table #22: 46475 bytes OK
+2024/02/18-19:44:25.977 3f8c Delete type=0 #19
