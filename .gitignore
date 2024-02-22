@@ -1,55 +1,91 @@
+*
+!Hyprland
+!/fastfetch/
+!fastfetch/*
+!/gtk*/
+!gtk*/*
+!/hypr/
+!hypr/*
+!/kitty/
+!kitty/*
+!/nvim/
+!nvim/*
+!/ranger/
+!ranger/*
+!/swayidle/
+!swayidle/*
+!/swaylock/
+!swaylock/*
+!/tmux/
+!tmux/*
+!/tofi/
+!tofi/*
+!/waybar/
+!waybar/*
+!/wofi/
+!wofi/*
+!/workstyle/
+!workstyle/*
+!/wpaperd/
+!wpaperd/*
+!.gitignore
+!.zshrc
+!README.md
+!logno*
+!my-aliases
+!setup.sh
 !gittips.md
-astro
-btop
-cef_user_data
-cemu
-chromium
-com.yuezk.qt
-composer
-configstore
-dconf
-font-manager
-fontconfig
-GIMP
-github-copilot
-go
-google-chrome
-lazygit
-libreoffice
-menus
-microsoft-edge
-mimeapps.list
-nautilus
-neofetch
-nvim.bak
-nwg-look
-onlyoffice
-protonvpn
-pulse
-QtProject.conf
-qutebrowser
-systemd
-thorium
-Thunar
-transmission
-turso
-'Unkown Organization'
-xfce4
-xsettingsd
-yay
-zoom.conf
-zoomus.conf
-gh
-balena-etcher
-netlify
-nushell
-protonmail
-BraveSoftware
-Microsoft*
-my-electron-app
-next*
-teams
-turso
-zoom*
-gh
-electron-app
+# astro
+# btop
+# cef_user_data
+# cemu
+# chromium
+# com.yuezk.qt
+# composer
+# configstore
+# dconf
+# font-manager
+# fontconfig
+# GIMP
+# github-copilot
+# go
+# google-chrome
+# lazygit
+# libreoffice
+# menus
+# microsoft-edge
+# mimeapps.list
+# nautilus
+# neofetch
+# nvim.bak
+# nwg-look
+# onlyoffice
+# protonvpn
+# pulse
+# QtProject.conf
+# qutebrowser
+# systemd
+# thorium
+# Thunar
+# transmission
+# turso
+# 'Unkown Organization'
+# xfce4
+# xsettingsd
+# yay
+# zoom.conf
+# zoomus.conf
+# gh
+# balena-etcher
+# netlify
+# nushell
+# protonmail
+# BraveSoftware
+# Microsoft*
+# my-electron-app
+# next*
+# teams
+# turso
+# zoom*
+# gh
+# electron-app
