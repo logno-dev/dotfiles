@@ -1,4 +1,5 @@
 *
+/*
 !/fastfetch/
 !fastfetch/*
 !/gtk*/
@@ -34,5 +35,5 @@
 !my-aliases
 !setup.sh
 !gittips.md
-!mako/*
-!/mako/*
+!mako
+!/mako/config
