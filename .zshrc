@@ -123,7 +123,7 @@ alias ls="lsd"
 alias lt="lsd --tree"
 
 gitall() {
-  git add .
+  git add -A
   git commit -m "$(date)"
   git push
 }
