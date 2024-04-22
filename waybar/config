@@ -28,7 +28,7 @@
      // "persistent-workspaces": {
       //  "*": 5, // 5 workspaces by default on every monitor
      // },
-        "format": "{icon}",
+        "format": "| {icon}",
     },
     // Modules configuration
     // "sway/workspaces": {
