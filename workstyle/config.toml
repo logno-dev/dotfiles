@@ -33,10 +33,11 @@
 # "mpv" = ""
 "music" = ""
 "disk usage" = ""
-"kitty" = ""
+"kitty" = ""
 # ".pdf" = ""
 "gimp" = ""
 "discord" = ""
+"parsec" = "󱊪"
 
 [other]
 fallback_icon = ""
