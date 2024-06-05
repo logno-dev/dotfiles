@@ -143,7 +143,7 @@ vim.keymap.set("t", "<Esc>", "<C-\\><C-n>")
 -- [[ Harpoon ]]
 local harpoon = require("harpoon")
 vim.keymap.set("n", "<leader>b", function()
-  harpoon:list():append()
+  harpoon:list():add()
 end, { desc = "Add current buffer to harpoon" })
 vim.keymap.set("n", "<leader>e", function()
   harpoon.ui:toggle_quick_menu(harpoon:list())
@@ -228,3 +228,8 @@ vim.keymap.set("i", "<M-l>", "<right>", { silent = true })
 vim.keymap.set("i", "<M-h>", "<left>", { silent = true })
 vim.keymap.set("i", "<M-k>", "<up>", { silent = true })
 vim.keymap.set("i", "<M-j>", "<down>", { silent = true })
+
+-- [[ copy and paste to unnamedplus ]]
+vim.keymap.set("n", "P", '"*p')
+vim.keymap.set("v", "Y", '"+y')
+vim.keymap.set("n", "YY", '"+yy')

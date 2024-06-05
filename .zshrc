@@ -166,3 +166,4 @@ export PATH="$HOME/.cargo/bin:$HOME/go/bin:$PATH:/home/logno/.turso:$PATH"
 export HYPRSHOT_DIR="$HOME/screenshots/"
 
 lolcat ~/.config/logno
+source /usr/share/nvm/init-nvm.sh

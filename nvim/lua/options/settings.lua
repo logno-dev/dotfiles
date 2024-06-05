@@ -9,12 +9,12 @@ vim.wo.relativenumber = true
 vim.wo.number = true
 
 -- Enable mouse mode
-vim.o.mouse = "a"
+vim.o.mouse = ""
 
 -- Sync clipboard between OS and Neovim.
 --  Remove this option if you want your OS clipboard to remain independent.
 --  See `:help 'clipboard'`
-vim.o.clipboard = "unnamedplus"
+-- vim.o.clipboard = "unnamedplus"
 
 -- Enable break indent
 vim.o.breakindent = true
@@ -60,3 +60,5 @@ vim.treesitter.language.register("javascript", "mdx")
 vim.treesitter.language.register("markdown", "mdx")
 
 vim.opt.colorcolumn = "80"
+
+vim.cmd("Copilot disable")

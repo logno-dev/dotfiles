@@ -21,7 +21,7 @@ return {
   --         background = true,
   --       },
   --     })
-  --     vim.g.material_style = "darker"
+  --     -- vim.g.material_style = "darker"
   --     -- vim.cmd [[colorscheme material]]
   --   end,
   -- },
@@ -34,7 +34,7 @@ return {
   --       style = "night",
   --       transparent = true,
   --     })
-  --     -- vim.cmd [[colorscheme tokyonight]]
+  --     -- vim.cmd [[colorscheme tokyonight-night]]
   --   end,
   -- },
   -- {
@@ -48,36 +48,70 @@ return {
   --     -- vim.cmd.colorscheme 'ofirkai-darkblue'
   --   end,
   -- },
+  -- -- {
+  -- --   "kaiuri/nvim-juliana",
+  -- --   lazy = false,
+  -- -- priority = 1000,
+  -- -- config = function()
+  -- -- vim.cmd.colorscheme 'juliana'
+  -- -- end,
+  -- -- },
   -- {
-  --   "kaiuri/nvim-juliana",
+  --   "rose-pine/neovim",
+  --   name = "rose-pine",
   --   lazy = false,
   --   -- priority = 1000,
   --   config = function()
-  --     -- vim.cmd.colorscheme 'juliana'
+  --     require("rose-pine").setup({
+  --       disable_background = true,
+  --     })
+  --     -- vim.cmd.colorscheme("rose-pine-main")
   --   end,
   -- },
   -- {
-  --   "rebelot/kanagawa.nvim",
+  --   "Shatur/neovim-ayu",
+  --   name = "ayu",
   --   lazy = false,
-  --   -- priority = 1000,
   --   config = function()
-  --     require("kanagawa").setup({
-  --       transparent = true,
+  --     require("ayu").setup({
+  --       overrides = {
+  --         Normal = { bg = "None" },
+  --         ColorColumn = { bg = "None" },
+  --         SignColumn = { bg = "None" },
+  --         Folded = { bg = "None" },
+  --         FoldColumn = { bg = "None" },
+  --         CursorLine = { bg = "None" },
+  --         CursorColumn = { bg = "None" },
+  --         WhichKeyFloat = { bg = "None" },
+  --         VertSplit = { bg = "None" },
+  --       },
   --     })
-  --     -- vim.cmd.colorscheme 'kanagawa-dragon'
-  --     -- vim.cmd.colorscheme 'kanagawa-wave'
+  --     -- vim.cmd.colorscheme("ayu")
+  --   end,
+  -- },
+  -- {
+  --   "projekt0n/github-nvim-theme",
+  --   lazy = false,
+  --   config = function()
+  --     require('github-theme').setup({
+  --       options = {
+  --         transparent = true,
+  --       }
+  --     })
+  --     -- vim.cmd.colorscheme("github_dark_dimmed")
   --   end,
   -- },
   {
-    "rose-pine/neovim",
-    name = "rose-pine",
+    "rebelot/kanagawa.nvim",
     lazy = false,
     priority = 1000,
     config = function()
-      require("rose-pine").setup({
-        disable_background = true,
+      require("kanagawa").setup({
+        transparent = true,
       })
-      vim.cmd.colorscheme("rose-pine-main")
+      vim.cmd.colorscheme 'kanagawa-dragon'
+      -- vim.cmd.colorscheme 'kanagawa-wave'
+      -- vim.cmd.colorscheme 'kanagawa'
     end,
   },
 }

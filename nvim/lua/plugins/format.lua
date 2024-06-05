@@ -9,15 +9,15 @@ return {
     },
   },
 
-  -- {
-  --   'windwp/nvim-autopairs',
-  --   event = "InsertEnter",
-  --   opts = {
-  --     disable_filetype = { "markdown", "mdx", "md" },
-  --     check_ts = true,
-  --     disable_in_visualblock = true,
-  --   },
-  -- },
+  {
+    'windwp/nvim-autopairs',
+    event = "InsertEnter",
+    opts = {
+      disable_filetype = { "markdown", "mdx", "md" },
+      check_ts = true,
+      disable_in_visualblock = true,
+    },
+  },
 
   {
     'windwp/nvim-ts-autotag',
@@ -39,6 +39,7 @@ return {
       jsx_bracket_same_line = false,
       arrow_parens = 'avoid',
       print_width = 80,
+      tab_width = 2,
     }
   },
   {
