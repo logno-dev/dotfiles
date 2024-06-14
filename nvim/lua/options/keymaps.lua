@@ -230,6 +230,6 @@ vim.keymap.set("i", "<M-k>", "<up>", { silent = true })
 vim.keymap.set("i", "<M-j>", "<down>", { silent = true })
 
 -- [[ copy and paste to unnamedplus ]]
-vim.keymap.set("n", "P", '"*p')
+vim.keymap.set("n", "P", '"+p')
 vim.keymap.set("v", "Y", '"+y')
 vim.keymap.set("n", "YY", '"+yy')
